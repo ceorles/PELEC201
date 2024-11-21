@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.vh-100 {
+    background-color: #ffb66d;
+}
+
+.sign-in .container {
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    /* box-shadow: 0 0 400px 300px #00000080; */
+    align-items: center;
+    margin: auto;
+    width: 1000px;
+}
+
+.sign-in .container .row .col-md-6:last-child img {
+    height: 100%;
+}
+
+/* CONTENT */
+.sign-in .container .row .col-md-6:first-child .go-back .back {
+    margin: 12px 10px 0;
+    height: 20px;
+    width: 10px;
+}
+
+.sign-in .container .row .col-md-6:first-child .go-back span {
+    font-size: 15px;
+    margin-top: 11px;
+    margin-right: 4px;
+}
+
+.sign-in .container .row .col-md-6:first-child .go-back .gmail {
+    height: 30px;
+    width: 30px;
+    margin-top: 6px;
+}
+
+.sign-in .container .row .col-md-6:first-child hr {
+    border: 0;
+    border-top: 2px solid #000000;
+}
+
+.sign-in .container .row .col-md-6:first-child .header-koi {
+    padding: 30px 100px;
+}
+
+.sign-in .container .row .col-md-6:first-child .header-koi h1 {
+    font-size: 40px;
+    font-family: serif;
+    color: #ED7B00;
+}
+
+.sign-in .container .row .col-md-6:first-child .header-koi img {
+    margin-bottom: 10px;
+}
+
+.sign-in .container .row .col-md-6:first-child .header-koi h2 {
+    font-size: 32px;
+}
+
+.sign-in .container .row .col-md-6:first-child .header-koi h3 {
+    font-size: 24px;
+}
+
+.sign-in .container .row .col-md-6:first-child .header-koi h3 span {
+    color: #F37E00;
+}
+
+.sign-in .container .row .col-md-6:first-child .account {
+    border-bottom: 2px solid #000000;
+    margin: 5px 50px 5px;
+    padding-top: 12px;
+}
+
+.sign-in .container .row .col-md-6:first-child .account.d-flex:hover {
+    background-color: #00000025;
+}
+
+.sign-in .container .row .col-md-6:first-child .account img {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    margin-bottom: 12px;
+}
+
+.sign-in .container .row .col-md-6:first-child .account a {
+    text-decoration: none;
+}
+
+.sign-in .container .row .col-md-6:first-child .account h5 {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.sign-in .container .row .col-md-6:first-child .account h6 {
+    font-size: 15px;
+    color: #000000;
+}
+
+.sign-in .container .row .col-md-6:first-child p {
+    font-size: 12px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.sign-in .container .row .col-md-6:first-child p span {
+    color: #1877F2;
+}
+
+/* CONTENT */
+
+@media (max-width: 1024px) {
+    .sign-in .container .row .col-md-6:first-child .header-koi h2 {
+        font-size: 30px;
+    }
+    
+    .sign-in .container .row .col-md-6:first-child .header-koi h3 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sign-in .container {
+        width: auto;
+    }
+
+    .sign-in .container .row .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .sign-in .container .row .col-md-6:last-child img {
+        display: none;
+    }
+    /*  */
+    .sign-in .container .row .col-md-6:first-child .header-koi {
+        padding: 150px 100px 50px;
+    }
+
+    .sign-in .container .row .col-md-6:first-child p {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+}
+
+@media (max-width: 425px) {    
+    .sign-in .container .row .col-md-6:first-child .header-koi {
+        padding: 120px 40px 50px;
+    }
+
+    .sign-in .container .row .col-md-6:first-child .account {
+        border-bottom: 2px solid #000000;
+        margin: 10px 50px 15px;
+    }
+    
+    .sign-in .container .row .col-md-6:first-child .account img {
+        height: 40px;
+        width: 40px;
+        margin-right: 20px;
+        margin-bottom: 12px;
+    }
+    
+    .sign-in .container .row .col-md-6:first-child .account h5 {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    
+    .sign-in .container .row .col-md-6:first-child .account h6 {
+        font-size: 10px;
+    }
+
+    .sign-in .container .row .col-md-6:first-child p {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 320px) {
+    .sign-in .container .row .col-md-6:first-child .header-koi {
+        padding: 120px 30px 50px;
+    }
+
+    .sign-in .container .row .col-md-6:first-child .header-koi h1 {
+        font-size: 40px;
+    }
+    
+    .sign-in .container .row .col-md-6:first-child .header-koi img {
+        margin-bottom: 10px;
+    }
+    
+    .sign-in .container .row .col-md-6:first-child .header-koi h2 {
+        font-size: 25px;
+    }
+    
+    .sign-in .container .row .col-md-6:first-child .header-koi h3 {
+        font-size: 18px;
+    }
+
+    .sign-in .container .row .col-md-6:first-child .account {
+        border-bottom: 2px solid #000000;
+        margin: 10px 40px 15px;
+    }
+    
+    .sign-in .container .row .col-md-6:first-child .account img {
+        height: 40px;
+        width: 40px;
+        margin-right: 20px;
+        margin-bottom: 12px;
+    }
+    
+    .sign-in .container .row .col-md-6:first-child .account h5 {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    
+    .sign-in .container .row .col-md-6:first-child .account h6 {
+        font-size: 10px;
+    }
+
+    .sign-in .container .row .col-md-6:first-child p {
+        font-size: 10px;
+    }
+}
