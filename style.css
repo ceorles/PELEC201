@@ -1,0 +1,511 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    cursor: context-menu;
+}
+
+a {
+    cursor: pointer;
+}
+
+/* HEADER */
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+    transition: all 0.3s ease;
+    border-bottom: 20px solid #F37E00;
+}
+
+.navbar .container .navbar-toggler svg {
+    color: #FFFFFF;
+    width: 30px;
+    height: 30px;
+}
+
+.navbar .container .navbar-toggler {
+    color: #F37E00;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.nav-item a {
+    color: #FFFFFF;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation a{
+    color: #FFFFFF;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.navigation a:hover{
+    border-bottom: 2px solid #F37E00;
+    color: #F37E00;
+}
+
+#logout{
+    background-color: #FFFFFF;
+    border: 2px solid #F37E00;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 15px;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logout img{
+    height: 30px;
+    width: 30px;
+}
+
+.navbar{
+    width: 100%;
+    margin-bottom: 13px;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item:last-child {
+    display: none;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover,
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:focus,
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active {
+    color: #E3791B;
+    border-bottom: 3px solid #E3791B;
+}
+
+
+/* HEADER */
+
+.bg {
+    background-image: url(Homepage_img.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    object-fit: fill;
+}
+
+.landing {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+section {
+    padding: 0 19%;
+}
+
+.landing-text h5 {
+    font-size: 100px;
+    font-weight: 400;
+    color: #F37E00;
+    margin-bottom: 20px;
+    font-family: "Roboto Serif", serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 1.1;
+}
+
+.landing-text .k-letter, .landing-text .i-letter {
+    font-size: 100px;
+    font-family: serif;
+}
+
+.landing-text .fish-logo {
+    height: 80px;
+}
+
+.landing-text h4 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #F37E00;
+    margin-bottom: 10px;
+    font-family: "Roboto Serif", serif;
+    line-height: 1.2;
+}
+
+.landing-text h2 {
+    font-size: 30px;
+    line-height: 1;
+    margin: 0 0 20px;
+    color: #FFFFFF;
+    line-height: 1.2;
+}
+
+.landing-text p {
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.landing-text a {
+    display: inline-block;
+    color: #000000;
+    background: #F37E00;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+    text-decoration: none;
+}
+
+.landing-text a:hover {
+    background: #FFDBBB;
+    border: 1px solid #FFFFFF;
+    transform: translateX(8px);
+}
+
+.landing-img {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.landing-img img:hover {
+    scale: 1.15;
+    transition: all 0.3s ease-in-out;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #282828;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 17px;
+    margin: 26.56px;
+    background-color: #F37A00;
+    border-radius: 100%;
+}
+
+.socialIcons a i {
+    font-size: 35.41px;
+    color: #000000;
+}
+
+/* HOVER EFFECTS */
+.socialIcons a:hover {
+    background-color: #282828;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+    color: #F37A00;
+    transition: 0.5s;
+}
+/* HOVER EFFECTS */
+
+.footerNav {
+    margin: 44px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+.footerNav ul li a {
+    color: #FFFFFF;
+    margin: 14px;
+    text-decoration: none;
+    font-size: 24px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+}
+
+.footerBottom {
+    background-color: #F37A00;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerBottom img {
+    align-content: center;
+    width: 14px;
+    height: 14px;
+    margin-right: 2.84px;
+}
+
+.footerBottom p {
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+/* FOOTER */
+
+@media (max-width: 1535px) {
+    header {
+        padding: 15px 3%;
+        transition: .2s;
+    }
+    .logout {
+        display: none;
+    }
+}
+
+@media (max-width: 1460px) {
+    section {
+        padding: 0 12%;
+        transition: .2s;
+    }
+}
+
+@media (max-width: 1340px) {
+    .landing-img img {
+        width: 100%;
+        height: auto;
+    }
+    .landing-text h5 {
+        font-size: 60px;
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+    .landing-text .k-letter, .landing-text .i-letter {
+        font-size: 100px;
+        font-family: serif;
+    }
+    .landing-text .fish-logo {
+        height: 90px;
+    }
+    .landing-text h4 {
+        font-size: 35px;
+        margin-bottom: 8px;
+    }
+    .landing-text h2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .landing-text p {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 1195px) {
+    section {
+        padding: 0 3%;
+        transition: .2s;
+    }
+    .landing-text {
+        padding-top: 115px;
+    }
+    .landing-img {
+        text-align: center;
+    }
+    .landing-img {
+        width: 100%;
+        height: auto;
+    }
+    .landing {
+        height: 100%;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:994px) {
+    .footerNav ul {
+        flex-direction: column;
+    }
+
+    .footerNav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar .navbar-collapse .navbar-nav {
+        background-color: grey;
+    }
+
+    .navbar .navbar-collapse .navbar-nav .nav-item a {
+        color: white;
+    }
+
+    .navbar .navbar-collapse .navbar-nav .nav-item:last-child {
+        display: block;
+    }
+
+    .navbar .nav-item:not(.navbar-collapse .nav-item) {
+        display: none;
+    }
+}
+
+@media (max-width: 990px){
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar .nav-item .nav-link {
+        padding: 10px 20px;
+    }
+
+    .navigation {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 40vh;
+        background: #242424;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 20px;
+        transition: all .55s ease;
+    }
+
+    .navigation a {
+        display: block;
+        margin: 7px 0;
+        margin-left: 0;
+    }
+
+    .navigation.open {
+        right: 0;
+    }
+}
+
+@media (max-width:768px) {
+    .socialIcons {
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin: 0;
+    }
+
+    .socialIcons a {
+        padding: 12px;
+        margin: 20.56px;
+    }
+
+    .socialIcons a i {
+        font-size: 25.41px;
+    }
+
+    .footerNav ul li a {
+        font-size: 18px;
+    }
+    
+    .footerBottom img {
+        width: 10px;
+        height: 10px;
+    }
+    
+    .footerBottom p {
+        color: #000000;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 680px) {
+    .landing-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .landing-text h5 {
+        font-size: 50px;
+        grid-area: 5px;
+        margin-bottom: 10px;
+    }
+
+    .landing-text .k-letter, .landing-text .i-letter {
+        font-size: 70px;
+        font-family: serif;
+    }
+
+    .landing-text .fish-logo {
+        height: 60px;
+    }
+
+    landing-text h4 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .landing-text h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 499px) {
+    .landing-text a {
+        font-size: 12px;
+    }
+
+    .socialIcons a {
+        padding: 8px 10px 8px;
+        margin: 15px;
+    }
+
+    .socialIcons a i {
+        font-size: 16px;
+    }
+}
