@@ -5,6 +5,11 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     list-style: none;
+    cursor: context-menu;
+}
+
+a {
+    cursor: pointer;
 }
 
 .vh-100 {
