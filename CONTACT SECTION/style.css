@@ -230,7 +230,7 @@ header {
 }
 
 .contact .container .row .col:last-child .form-control:hover {
-    border: 2px solid #000000;
+    border: 2px solid #E3791B;
 }
 
 .contact .container .row .col:last-child .form-control:focus {
