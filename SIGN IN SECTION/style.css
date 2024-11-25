@@ -85,6 +85,10 @@ a {
     padding-top: 12px;
 }
 
+.sign-in .container .row .col-md-6:first-child .account.d-flex {
+    cursor: pointer;
+}
+
 .sign-in .container .row .col-md-6:first-child .account.d-flex:hover {
     background-color: #00000025;
 }
