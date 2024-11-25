@@ -93,15 +93,15 @@
                     <form action="#" method="POST">
                         <div class="mb-3">
                             <label for="NAME" class="mb-2 fw-bold">Name</label>
-                            <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                            <input type="text" class="form-control" aria-label="Username" id="NAME" name="NAME" aria-describedby="basic-addon1" required>
                         </div>
                         <div class="mb-3">
                             <label for="EMAIL" class="mb-2 fw-bold">Email</label>
-                            <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <input type="text" class="form-control" aria-label="Recipient's username" id="EMAIL" name="EMAIL" aria-describedby="basic-addon2" required>
                         </div>
                         <div class="mb-3">
                             <label for="COMMENT" class="mb-2 fw-bold">What can we help you with?</label>
-                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                            <textarea class="form-control" id="COMMENT" name="COMMENT" aria-label="With textarea" required></textarea>
                         </div>
                         <div class="mb-0 d-flex justify-content-end">
                             <button class="btn custom-orange fw-bold text-white" type="submit">Submit</button>
@@ -137,9 +137,6 @@
         </div>
     </footer>
 <!-- FOOTER -->
-
-    <!-- JS LINKED -->
-    <script src="main.js"></script>
 
     <!-- BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
