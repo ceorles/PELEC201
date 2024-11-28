@@ -12,6 +12,7 @@
 
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 </head>
 
 <body class="vh-100 d-flex align-items-center justify-content-center">
@@ -30,12 +31,15 @@
                         <p class="mb-1">Sign in with your email & password</p>
                         <div class="mb-2">
                             <label for="EMAIL">Email</label>
-                            <input type="text" class="form-control" id="EMAIL" name="EMAIL" placeholder="sample@gmail.com" aria-label="EMAIL" aria-describedby="basic-addon1">
+                            <input type="email" class="form-control" placeholder="sample@gmail.com" aria-label="Email" aria-describedby="basic-addon1">
                         </div>
                         
-                        <div class="mb-1">
-                            <label for="PASSWORD">Password</label>
-                            <input type="text" class="form-control" id="PASSWORD" name="PASSWORD" aria-label="PASSWORD" aria-describedby="basic-addon2">
+                        <div class="mb-1 form-group">
+                            <label for="setpassword">Password</label>
+                            <div class="input d-flex" id="show_hide_password_set">
+                                <input class="form-control" type="password" id="setpassword" name="setpassword">
+                                <i class="fa fa-eye-slash" id="show_set"></i>
+                            </div>
                         </div>
 
                         <div class="input-group mb-3 p-0">
@@ -66,6 +70,9 @@
             </div>
         </div>
     </section>
+
+    <!-- JAVA SCRIPT -->
+    <script src="main.js"></script>
 
     <!-- BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
