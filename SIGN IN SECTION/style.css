@@ -8,21 +8,18 @@
     cursor: context-menu;
 }
 
-a {
-    cursor: pointer;
-}
-
 .vh-100 {
-    background-color: #ffb66d;
+    background-image: linear-gradient(to top, #ffa54b, #a75300);
 }
 
 .sign-in .container {
     background-color: #FFFFFF;
-    border: 1px solid #F1F1F1;
-    /* box-shadow: 0 0 400px 300px #00000080; */
+    border: 2px solid #F1F1F1;
+    box-shadow: 0 0 5px 8px #00000075;
     align-items: center;
     margin: auto;
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
 }
 
 .sign-in .container .row .col-md-6:last-child img {
@@ -34,6 +31,7 @@ a {
     margin: 12px 10px 0;
     height: 20px;
     width: 10px;
+    cursor: pointer;
 }
 
 .sign-in .container .row .col-md-6:first-child .go-back span {
@@ -83,14 +81,15 @@ a {
     border-bottom: 2px solid #000000;
     margin: 5px 50px 5px;
     padding-top: 12px;
-}
-
-.sign-in .container .row .col-md-6:first-child .account.d-flex {
-    cursor: pointer;
+    padding-left: 5px;
 }
 
 .sign-in .container .row .col-md-6:first-child .account.d-flex:hover {
     background-color: #00000025;
+}
+
+.sign-in .container .row .col-md-6:first-child .account {
+    cursor: pointer;
 }
 
 .sign-in .container .row .col-md-6:first-child .account img {
@@ -98,6 +97,7 @@ a {
     width: 50px;
     margin-right: 20px;
     margin-bottom: 12px;
+    cursor: pointer;
 }
 
 .sign-in .container .row .col-md-6:first-child .account a {
@@ -108,11 +108,13 @@ a {
     font-size: 20px;
     margin-top: 5px;
     color: #000000;
+    cursor: pointer;
 }
 
 .sign-in .container .row .col-md-6:first-child .account h6 {
     font-size: 15px;
     color: #000000;
+    cursor: pointer;
 }
 
 .sign-in .container .row .col-md-6:first-child p {
