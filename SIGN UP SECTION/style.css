@@ -12,17 +12,22 @@ a {
     cursor: pointer;
 }
 
+input {
+    cursor: auto;
+}
+
 .vh-100 {
-    background-color: #ffb66d;
+    background-image: linear-gradient(to top, #ffa54b, #a75300);
 }
 
 .signup .container {
     background-color: #FFFFFF;
-    border: 1px solid #F1F1F1;
-    /* box-shadow: 0 0 400px 300px #00000080; */
+    border: 2px solid #F1F1F1;
+    box-shadow: 0 0 5px 8px #00000075;
     align-items: center;
     margin: auto;
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
 }
 
 .signup .container .row .col-md-6:first-child .blob {
@@ -89,6 +94,24 @@ a {
     background-color: #00000080;
     border-color: transparent;
     color: #FFFFFF;
+}
+
+.input {
+    position: relative;
+}
+
+.input i {
+    background-color: #FFFFFF;
+    padding-left: 10px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.form-control {
+    padding-right: 20px;
 }
 
 /* Content */
