@@ -133,6 +133,7 @@ section {
     align-items: center;
     gap: 10px;
     line-height: 1.1;
+    opacity: 75%;
 }
 
 .landing-text .k-letter, .landing-text .i-letter {
@@ -151,6 +152,7 @@ section {
     margin-bottom: 10px;
     font-family: "Roboto Serif", serif;
     line-height: 1.2;
+    opacity: 75%;
 }
 
 .landing-text h2 {
@@ -341,7 +343,7 @@ section {
         margin-bottom: 15px;
     }
     .landing-text p {
-        font-size: 3vw;
+        font-size: 15px;
     }
 }
 
@@ -507,5 +509,9 @@ section {
 
     .socialIcons a i {
         font-size: 16px;
+    }
+    
+    .landing-text p {
+        font-size: 12px;
     }
 }
