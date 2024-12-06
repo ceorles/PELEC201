@@ -95,11 +95,12 @@ header {
     color: #E3791B;
     border-bottom: 3px solid #E3791B;
 }
+
 /* HEADER */
 
 /* BODY HEADER */
 .hero {
-    background-image: url(section1.png);
+    background-image: linear-gradient( rgba(44, 44, 44, 0.5), rgba(44, 44, 44, 0.5) ), url(section1.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -135,19 +136,32 @@ header {
     font-size: 20px;
     font-weight: bold;
     color: #FFFFFF;
+    margin-left: 10px;
 }
 /* BODY HEADER */
 
 /* BODY PRODUCTS */
 .product {
-    background-image: url(section2.png);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    position: relative;
     width: 100%;
     padding: 51px 0 186px;
     border-top: 20px solid #ED7B00;
     margin-top: 11px;
+}
+
+.product::before {
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(section2.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    z-index: -1;
 }
 
 .product .container h2 {
@@ -427,16 +441,17 @@ header {
     }
     
     .hero h1 {
-        font-size: 60px;
+        font-size: 65px;
         font-weight: bold;
         color: #FFFFFF;
         margin: 0;
     }
     
     .hero p {
-        font-size: 12px;
+        font-size: 18px;
         font-weight: bold;
         color: #FFFFFF;
+        margin-left: 4px;
     }
 
     .product .row.align-items-center.student-promo .col:first-child,
@@ -505,15 +520,17 @@ header {
     }
     
     .hero h1 {
-        font-size: 30px;
+        font-size: 50px;
         font-weight: bold;
         color: #FFFFFF;
         margin: 0;
     }
     
     .hero p {
-        font-size: 9px;
+        font-size: 12px;
         font-weight: bold;
         color: #FFFFFF;
+        margin-left: 2px;
     }
+
 }
