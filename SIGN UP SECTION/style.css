@@ -33,6 +33,7 @@ input {
 .signup .container .row .col-md-6:first-child .blob {
     height: 100px;
     width: 100px;
+    opacity: 75%;
 }
 
 .signup .container .row .col-md-6:last-child img {
