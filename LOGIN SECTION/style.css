@@ -33,6 +33,7 @@ input {
 .login .container .row .col-md-6:first-child .blob {
     height: 125px;
     width: 125px;
+    opacity: 75%;
 }
 
 .login .container .row .col-md-6:last-child img {
